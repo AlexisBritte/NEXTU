@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<title>Curriculum Vitae</title>
+</head>
+<body>
+	<header>
+		<svg width="100px" height="100px" viewport="0 0 100 100">
+			<image width="100px" height="100px" xlink:href="img/AB-logo.svg">
+		</svg>
+		<h1 id="Inicio">Curriculum Vitae</h1>
+	</header>
+
+	<h3>Nombres: Alexis Emmanuel</h3>
+	<h3>Apellido: Britte</h3>
+	<h3>Fecha de nacimiento: 21/03/1990</h3>
+	<h3>Lugar de nacimiento: Argentina - Buenos Aires - Laferrere</h3>
+
+	<navbar>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="educacion.html">Educaci&oacuten</a></li> 
+			<li><a href="experiencia.html">Experiencia</a></li>
+		</ul>
+	</navbar>
+
+	<h2>Educaci&oacuten</h2>
+
+	<table border="1" cellspacing="0" cellpadding="10">
+		<tr>
+			<th>A&ntildeo</th>
+			<th>Instituci&oacuten</th>
+			<th>Lugar</th>
+			<th>¿Culmin&oacute?</th>
+		</tr>
+		<tr>
+			<td>2007</td>
+			<td>Clarac</td>
+			<td>Buenos Aires</td>
+			<td>Si</td>
+		</tr>
+		<tr>
+			<td>2011</td>
+			<td>UNLAM</td>
+			<td>Buenos Aires</td>
+			<td>En curso</td>
+		</tr>
+	</table>
+	
+	<h2>Agregar Estudios</h2>
+
+	<form name="estudios">
+		<p>
+			<label for="fecha">A&ntildeo: </label>
+			<select id="fecha" name="fecha">
+				<option>2017</option>
+				<option>2016</option>
+				<option>2015</option>
+				<option>2014</option>
+				<option>2013</option>
+				<option>2012</option>
+				<option>2011</option>
+				<option>2010</option>
+			</select>
+		</p>
+		<p>
+			<label for="institucion">Instituci&oacuten: </label>
+			<input type="text" name="institucion" id="institucion" required>
+		</p>
+		<p>
+			<label for="lugar">Lugar: </label>
+			<textarea name="lugar" id="lugar" rows="2" cols="40"></textarea>
+		</p>
+		<p>
+			<label>¿Culmin&oacute?</label>
+			<input type="radio" name="culmino" value="si">Si
+			<input type="radio" name="culmino" value="no">No
+		</p>
+		<p>
+			<input type="submit" name="enviar" value="Enviar">
+		</p>
+	</form>
+
+	<footer>
+		<p>@Derechos Reservados</p>
+		<ul>
+			<li><strong>Correo electronico:</strong><a href="mailto:alexisbritte@gmail.com">alexisbritte@gmail.com</a></li>
+			<li><strong>Tel&eacutefono:</strong> 1532934898</li>
+			<li><strong>Facebook: </strong> Alexis Britte</li>
+		</ul>
+	</footer>
+</body>
+</html>
